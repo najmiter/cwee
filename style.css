@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 100%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+}
+
+html {
+    color-scheme: dark;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: hsl(var(--background));
+}
+
+main {
+    padding-inline-start: clamp(1rem, 10%, 10rem);
+    padding-block-start: clamp(1rem, 10%, 10rem);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid hsl(var(--muted-foreground));
+    border-radius: var(--radius);
+    color: hsl(var(--input));
+    padding: 1rem;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.input-section {
+    width: clamp(18rem, 40%, 30rem);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-heading {
+    align-self: flex-start;
+}
