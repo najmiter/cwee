@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-w300 {
+    font-weight: 300;
+}
+
+.line-h17 {
+    line-height: 1.7;
+}

@@ -1,0 +1,162 @@
+:root {
+    --clr-main: #ffb300;
+    --clr-dim: #474747;
+    --clr-dimmer: #757575;
+    --clr-dim-divider: #47474723;
+}
+
+/* @media screen {
+    body {
+        display: none;
+    }
+
+    html::after {
+        content: 'Printing your resume...';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        font-size: 2rem;
+    }
+} */
+
+html {
+    font-family: "Roboto", sans-serif;
+    color: var(--clr-dim);
+    letter-spacing: .05rem;
+    font-size: 10px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+hr {
+    margin-block: 3rem;
+    border: .5px solid var(--clr-main);
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    margin-block: 5rem;
+}
+
+progress {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 90%;
+    height: 15px;
+    position: relative;
+    --_clr-progrees: rgb(208, 208, 208);
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--clr-dim-divider);
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--clr-dimmer);
+}
+
+progress::after {
+    content: attr(value)'%';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    color: var(--_clr-progrees);
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    width: 20%;
+    aspect-ratio: 1;
+}
+
+.name {
+    color: var(--clr-main);
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-block-start: 1rem;
+    font-weight: 500;
+}
+
+.other-details {
+    font-size: 1rem;
+    width: 50%;
+}
+
+.details-line {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-block: .5rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-block: 2rem;
+}
+
+.h-icon {
+    font-size: 1.5em;
+    color: var(--clr-main);
+}
+
+.jobs {
+    font-size: 1.5rem;
+    color: var(--clr-dim);
+    margin-block: 1rem;
+}
+
+.job {
+    grid-template-areas: "line job1 job2";
+    grid-template-columns: auto 1fr 2fr;
+    gap: 2rem;
+
+    margin-block: 3rem;
+}
+
+.line {
+    width: 2px;
+    border-radius: 0.5rem;
+    background-color: var(--clr-main);
+}
+
+.job-title {
+    font-size: 1em;
+}
+
+.job-details {
+    margin-right: 3rem;
+}
+
+.section-dividor {
+    width: 40%;
+    border: 0.1px solid var(--clr-dim-divider);
+    margin: 0 auto;
+}
+
+.skills-list {
+    grid-template-columns: auto 1fr 4fr;
+    gap: 1rem;
+    margin-block: 0.5rem;
+}

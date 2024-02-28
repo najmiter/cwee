@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>cwee - Resume Builder</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="factories.js" defer></script>
+        <script src="globals.js" defer></script>
+        <script src="personal_details_save_btn.js" defer></script>
+        <script src="work_experience_save_btn.js" defer></script>
+        <script src="skill_save_btn.js" defer></script>
+        <script src="education_save_btn.js" defer></script>
         <script src="main.js" defer></script>
     </head>
     <body>
@@ -13,30 +19,140 @@
                 <h2 class="input-heading">Personal Details</h2>
                 <input
                     class="input-input"
-                    id="name"
+                    id="person-name"
                     type="text"
                     maxlength="40"
                     placeholder="Name..."
                 />
                 <input
                     class="input-input"
-                    type="number"
-                    min="1"
-                    placeholder="Age..."
+                    id="person-title"
+                    type="text"
+                    maxlength="40"
+                    placeholder="Professional title..."
                 />
                 <input
                     class="input-input"
+                    id="person-website"
+                    type="text"
+                    placeholder="Website..."
+                />
+                <input
+                    class="input-input"
+                    id="person-email"
                     type="text"
                     maxlength="50"
                     placeholder="Email..."
                 />
                 <input
                     class="input-input"
+                    id="person-phone"
                     type="tel"
                     maxlength="15"
                     placeholder="Phone Number..."
                 />
+                <input
+                    class="input-input"
+                    id="person-address"
+                    type="text"
+                    placeholder="Address..."
+                />
+                <button id="persnoal-details-save-btn">Save Details</button>
             </section>
+
+            <section class="input-section">
+                <h2 class="input-heading">Work Experience</h2>
+                <input
+                    class="input-input"
+                    id="job-title"
+                    type="text"
+                    placeholder="Job title..."
+                />
+                <input
+                    class="input-input"
+                    id="job-location"
+                    type="text"
+                    placeholder="Job location..."
+                />
+                <input
+                    class="input-input"
+                    id="job-period"
+                    type="text"
+                    placeholder="Job period (start year - end year)..."
+                />
+                <input
+                    class="input-input"
+                    id="job-company"
+                    type="text"
+                    placeholder="Company/firm name..."
+                />
+                <input
+                    class="input-input"
+                    id="job-description"
+                    type="text"
+                    placeholder="Job description..."
+                />
+                <button id="work-experience-save-btn">Save Experience</button>
+                <span id="experience-added-count">0 experience added</span>
+            </section>
+
+            <section class="input-section">
+                <h2 class="input-heading">Skills</h2>
+                <input
+                    class="input-input"
+                    id="person-skill"
+                    type="text"
+                    placeholder="Name of the skill..."
+                />
+                <input
+                    class="input-input"
+                    id="person-skill-percentage"
+                    type="number"
+                    min="0"
+                    max="100"
+                    placeholder="0 to 100, how good are you..."
+                />
+                <button id="skill-save-btn">Add Skill</button>
+                <span id="skills-added-count">0 skills added</span>
+            </section>
+
+            <section class="input-section">
+                <h2 class="input-heading">Education</h2>
+                <input
+                    class="input-input"
+                    id="degree-title"
+                    type="text"
+                    placeholder="Degree title..."
+                />
+                <input
+                    class="input-input"
+                    id="degree-location"
+                    type="text"
+                    placeholder="Degree location..."
+                />
+                <input
+                    class="input-input"
+                    id="degree-period"
+                    type="text"
+                    placeholder="Degree period (start year - end year)..."
+                />
+                <input
+                    class="input-input"
+                    id="degree-school"
+                    type="text"
+                    placeholder="School name..."
+                />
+                <input
+                    class="input-input"
+                    id="degree-description"
+                    type="text"
+                    placeholder="Degree description..."
+                />
+                <button id="education-save-btn">Save Education</button>
+                <span id="education-added-count">0 degrees added</span>
+            </section>
+
+            <button>Print Resume</button>
         </main>
     </body>
 </html>
