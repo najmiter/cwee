@@ -114,7 +114,6 @@ button:is(:hover, :active, :focus) {
     border-radius: 0.5rem;
     opacity: 0;
     pointer-events: none
-        /* animation: poopup 500ms ease forwards, poopaway 500ms ease 3s forwards; */
 }
 
 .poop {
