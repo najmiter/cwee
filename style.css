@@ -31,11 +31,8 @@ html {
 
 body {
     background-color: hsl(var(--background));
-}
-
-main {
-    padding-inline-start: clamp(.5rem, 6%, 10rem);
-    padding-block-start: clamp(.5rem, 6%, 10rem);
+    padding: clamp(.5rem, 6%, 10rem);
+    padding-block-end: 3rem;
 }
 
 section {
@@ -51,7 +48,7 @@ button {
     color: hsl(var(--input));
     padding: 1rem;
     outline: none;
-    width: clamp(18rem, 30%, 50vw);
+    width: clamp(18rem, 100%, 25rem);
     background-color: hsl(var(--primary));
 }
 
