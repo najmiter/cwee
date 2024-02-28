@@ -21,11 +21,9 @@ const education_save_btn = document.getElementById("education-save-btn");
 personal_details_save_btn.addEventListener("click", () => {
     const data = handle_personal_details_save_btn();
 
-    if (data) {
-        personal_details[0] = data;
-    } else {
-        console.error("Please fill all the fields");
-    }
+    /// clear previous (if any)
+    personal_details.length = 0;
+    save_data_into(data, personal_details);
 });
 
 work_experience_save_btn.addEventListener("click", () => {
