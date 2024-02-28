@@ -19,8 +19,11 @@ const handle_input = (elements) => {
 const save_data_into = (data, into, id, text) => {
     if (data) {
         into.push(data);
-        document.getElementById(id).textContent =
-            `${into.length} ${text} added`;
+        
+        if (id) {
+            document.getElementById(id).textContent =
+                `${into.length} ${text} added`;
+        }
     } else {
         console.error("please fill all the fields");
     }
