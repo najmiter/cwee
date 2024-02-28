@@ -60,15 +60,24 @@ button {
     padding: 1rem 1.5rem;
     font-weight: bold;
     cursor: pointer;
-    background-color: hsl(var(--secondary));
-    color: hsl(var(--background));
+    background-color: rgb(58, 58, 58);
+    color: hsl(var(--primary-foreground));
     border: none;
 
     transition: background-color 250ms ease-in-out;
 }
 
 button:is(:hover, :active, :focus) {
-    background-color: hsl(var(--muted-foreground));
+    background-color: hsl(var(--primary));
+}
+
+#print-resume {
+    background-color: hsl(var(--destructive));
+}
+
+#print-resume:is(:hover, :active, :focus) {
+    background-color: hsl(var(--foreground));
+    color: hsl(var(--background));
 }
 
 .input-section {
