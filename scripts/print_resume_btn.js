@@ -25,6 +25,13 @@ const toggle_print_resume_btn_interactivity = () => {
 };
 
 print_resume_btn.addEventListener("click", () => {
-    localStorage.setItem("cwee", JSON.stringify(cwee));
-    window.location.href = "./templates/t-0/main.html";
+    if (
+        personal_details.length > 0 &&
+        work_experiences.length > 0 &&
+        skills.length > 0 &&
+        educations.length > 0
+    ) {
+        localStorage.setItem("cwee", JSON.stringify(cwee));
+        window.location.href = "./templates/t-0/main.html";
+    }
 });
