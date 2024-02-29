@@ -5,6 +5,7 @@ const person_elements = [
     "person-email",
     "person-phone",
     "person-address",
+    "person-img",
 ];
 
 const handle_personal_details_save_btn = () => {

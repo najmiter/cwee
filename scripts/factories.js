@@ -1,14 +1,12 @@
-function CreatePersonalDetails(
-    {
-        "person-name": name,
-        "person-title": title,
-        "person-website": website,
-        "person-phone": phone,
-        "person-email": email,
-        "person-address": address,
-    },
-    img = "https://i.pravatar.cc/600?img=6"
-) {
+function CreatePersonalDetails({
+    "person-name": name,
+    "person-title": title,
+    "person-website": website,
+    "person-phone": phone,
+    "person-email": email,
+    "person-address": address,
+    "person-img": img,
+}) {
     const header = document.createElement("header");
 
     header.innerHTML = `

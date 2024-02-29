@@ -32,7 +32,12 @@
 
 @media print {
     @page {
-        margin-top: 30cm;
+        margin: 10rem;
+
+        @top-center {
+            content: "som";
+            height: 5vh;
+        }
     }
 }
 

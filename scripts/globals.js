@@ -1,111 +1,111 @@
 const personal_details = [
-    {
-        "person-address":
-            "home 🥺",
-        "person-email": "realnajmiter@gmail.com",
-        "person-name": "Najam Ul Hassan",
-        "person-phone": "+923000000000",
-        "person-title": "Web Developer",
-        "person-website": "najmiter.github.io",
-    },
+    // {
+    //     "person-address": "home 🥺",
+    //     "person-email": "realnajmiter@gmail.com",
+    //     "person-name": "Najam Ul Hassan",
+    //     "person-phone": "+923000000000",
+    //     "person-title": "Web Developer",
+    //     "person-website": "najmiter.github.io",
+    //     "person-img": "https://i.pravatar.cc/600?img=6",
+    // },
 ];
 const work_experiences = [
-    {
-        "job-company": "netflix",
-        "job-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "job-location": "usa",
-        "job-period": "2016 - 2018",
-        "job-title": "senior developer",
-    },
-    {
-        "job-company": "google",
-        "job-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "job-location": "uk",
-        "job-period": "2018 - 2021",
-        "job-title": "team manager",
-    },
-    {
-        "job-company": "microsoft",
-        "job-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "job-location": "new york, usa",
-        "job-period": "2021 - 2022",
-        "job-title": "graphic designer",
-    },
+    // {
+    //     "job-company": "netflix",
+    //     "job-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "job-location": "usa",
+    //     "job-period": "2016 - 2018",
+    //     "job-title": "senior developer",
+    // },
+    // {
+    //     "job-company": "google",
+    //     "job-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "job-location": "uk",
+    //     "job-period": "2018 - 2021",
+    //     "job-title": "team manager",
+    // },
+    // {
+    //     "job-company": "microsoft",
+    //     "job-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "job-location": "new york, usa",
+    //     "job-period": "2021 - 2022",
+    //     "job-title": "graphic designer",
+    // },
 ];
 const skills = [
-    {
-        "person-skill": "C++",
-        "person-skill-percentage": 40,
-    },
-    {
-        "person-skill": "JS",
-        "person-skill-percentage": 40,
-    },
-    {
-        "person-skill": "photoshop",
-        "person-skill-percentage": 60,
-    },
-    {
-        "person-skill": "C",
-        "person-skill-percentage": 4,
-    },
-    {
-        "person-skill": "python",
-        "person-skill-percentage": 55,
-    },
-    {
-        "person-skill": "rust",
-        "person-skill-percentage": 30,
-    },
-    {
-        "person-skill": "graphics",
-        "person-skill-percentage": 20,
-    },
-    {
-        "person-skill": "video editing",
-        "person-skill-percentage": 10,
-    },
-    {
-        "person-skill": "swift",
-        "person-skill-percentage": 45,
-    },
-    {
-        "person-skill": "html",
-        "person-skill-percentage": 40,
-    },
-    {
-        "person-skill": "css",
-        "person-skill-percentage": 43,
-    },
+    // {
+    //     "person-skill": "C++",
+    //     "person-skill-percentage": 40,
+    // },
+    // {
+    //     "person-skill": "JS",
+    //     "person-skill-percentage": 40,
+    // },
+    // {
+    //     "person-skill": "photoshop",
+    //     "person-skill-percentage": 60,
+    // },
+    // {
+    //     "person-skill": "C",
+    //     "person-skill-percentage": 4,
+    // },
+    // {
+    //     "person-skill": "python",
+    //     "person-skill-percentage": 55,
+    // },
+    // {
+    //     "person-skill": "rust",
+    //     "person-skill-percentage": 30,
+    // },
+    // {
+    //     "person-skill": "graphics",
+    //     "person-skill-percentage": 20,
+    // },
+    // {
+    //     "person-skill": "video editing",
+    //     "person-skill-percentage": 10,
+    // },
+    // {
+    //     "person-skill": "swift",
+    //     "person-skill-percentage": 45,
+    // },
+    // {
+    //     "person-skill": "html",
+    //     "person-skill-percentage": 40,
+    // },
+    // {
+    //     "person-skill": "css",
+    //     "person-skill-percentage": 43,
+    // },
 ];
 const educations = [
-    {
-        "degree-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "degree-location": "helan",
-        "degree-period": "2016 - 2018",
-        "degree-school": "public school",
-        "degree-title": "matric",
-    },
-    {
-        "degree-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "degree-location": "phalia",
-        "degree-period": "2018 - 2020",
-        "degree-school": "pgc",
-        "degree-title": "inter",
-    },
-    {
-        "degree-description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
-        "degree-location": "phalia",
-        "degree-period": "2021 - 2025",
-        "degree-school": "uog",
-        "degree-title": "bscs",
-    },
+    // {
+    //     "degree-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "degree-location": "helan",
+    //     "degree-period": "2016 - 2018",
+    //     "degree-school": "public school",
+    //     "degree-title": "matric",
+    // },
+    // {
+    //     "degree-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "degree-location": "phalia",
+    //     "degree-period": "2018 - 2020",
+    //     "degree-school": "pgc",
+    //     "degree-title": "inter",
+    // },
+    // {
+    //     "degree-description":
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi numquam totam, magnam voluptatum dolorum laboriosam nulla nam debitis? Tempore, placeat.",
+    //     "degree-location": "phalia",
+    //     "degree-period": "2021 - 2025",
+    //     "degree-school": "uog",
+    //     "degree-title": "bscs",
+    // },
 ];
 
 const handle_input = (elements) => {
