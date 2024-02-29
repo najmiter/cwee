@@ -17,7 +17,10 @@
     }
 
     html::after {
-        content: 'Printing your resume...';
+        text-align: center;
+        font-weight: lighter;
+        line-height: 1.7;
+        content: attr(msg);
         position: absolute;
         top: 50%;
         left: 50%;
