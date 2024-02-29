@@ -33,7 +33,7 @@ if (cwee) {
 
     print(document);
 
-    localStorage.clear();
+    localStorage.removeItem('cwee');
 } else {
     document
         .getElementById("daddy")
