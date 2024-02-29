@@ -20,7 +20,7 @@ const toggle_print_resume_btn_interactivity = () => {
         print_resume_btn.style.opacity = 0.4;
     } else {
         print_resume_btn.style.pointerEvents = "all";
-        print_resume_btn.style.opacity = "1";
+        print_resume_btn.style.opacity = 1;
     }
 };
 
