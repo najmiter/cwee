@@ -1,7 +1,7 @@
 const personal_details = [
     {
         "person-address":
-            "Shadman Colony, Rehman Shaheed Road, Noor Street, House #03",
+            "home 🥺",
         "person-email": "realnajmiter@gmail.com",
         "person-name": "Najam Ul Hassan",
         "person-phone": "+923405962392",
