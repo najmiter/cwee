@@ -72,6 +72,8 @@ button:is(:hover, :active) {
 
 #print-resume-btn {
     background-color: hsl(var(--destructive));
+    pointer-events: none;
+    opacity: 0.4;
 }
 
 #print-resume-btn:is(:hover, :active) {
