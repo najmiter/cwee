@@ -4,7 +4,7 @@ const personal_details = [
             "home 🥺",
         "person-email": "realnajmiter@gmail.com",
         "person-name": "Najam Ul Hassan",
-        "person-phone": "+923405962392",
+        "person-phone": "+923000000000",
         "person-title": "Web Developer",
         "person-website": "najmiter.github.io",
     },
