@@ -10,6 +10,12 @@
         display: none;
     }
 
+    html {
+        width: 100dvw;
+        height: 100dvh;
+        color-scheme: dark;
+    }
+
     html::after {
         content: 'Printing your resume...';
         position: absolute;
@@ -17,6 +23,7 @@
         left: 50%;
         translate: -50% -50%;
         font-size: 2rem;
+        color: var(--clr-dimmer);
     }
 }
 
