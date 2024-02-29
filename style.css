@@ -61,19 +61,20 @@ button {
     background-color: rgb(58, 58, 58);
     color: hsl(var(--primary-foreground));
     border: none;
+    outline: none;
 
     transition: background-color 250ms ease-in-out;
 }
 
-button:is(:hover, :active, :focus) {
+button:is(:hover, :active) {
     background-color: hsl(var(--primary));
 }
 
-#print-resume {
+#print-resume-btn {
     background-color: hsl(var(--destructive));
 }
 
-#print-resume:is(:hover, :active, :focus) {
+#print-resume-btn:is(:hover, :active) {
     background-color: hsl(var(--foreground));
     color: hsl(var(--background));
 }
@@ -103,17 +104,18 @@ button:is(:hover, :active, :focus) {
 }
 
 #poopup {
-    position: sticky;
+    position: fixed;
     bottom: 5%;
     left: 50%;
     translate: -50% -5%;
     width: fit-content;
     padding: 1rem 1.5rem;
-    background-color: hsl(var(--primary));
+    background-color: hsl(var(--accent-foreground));
     color: hsl(var(--constructive));
     border-radius: 0.5rem;
     opacity: 0;
-    pointer-events: none
+    pointer-events: none;
+    text-align: center;
 }
 
 .poop {

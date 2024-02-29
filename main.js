@@ -1,15 +1,3 @@
-const personal_details = [];
-const work_experiences = [];
-const skills = [];
-const educations = [];
-
-const cwee = {
-    personal_details,
-    work_experiences,
-    skills,
-    educations,
-};
-
 const personal_details_save_btn = document.getElementById(
     "persnoal-details-save-btn"
 );
@@ -54,8 +42,8 @@ skill_save_btn.addEventListener("click", () => {
     const data = handle_skill_save_btn();
 
     if (data) {
-        const exp = +data.person_skill_percentage;
-        data.person_skill_percentage = exp > 100 ? 100 : exp < 0 ? 0 : exp;
+        const exp = +data["person-skill-percentage"];
+        data["person-skill-percentage"] = exp > 100 ? 100 : exp < 0 ? 0 : exp;
 
         save_data_into(data, skills, "skills-added-count", "skill(s)");
     } else {
