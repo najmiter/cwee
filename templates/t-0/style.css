@@ -70,10 +70,6 @@ li {
     list-style: none;
 }
 
-section {
-    margin-block: 5rem;
-}
-
 progress {
     appearance: none;
     -webkit-appearance: none;

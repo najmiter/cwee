@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+section {
+    margin-block: 5rem;
+    page-break-after: always;
+    min-height: 100px;
+}
+
 .grid {
     display: grid;
 }
